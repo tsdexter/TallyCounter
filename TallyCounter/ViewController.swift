@@ -38,7 +38,7 @@ class ViewController: UIViewController {
      * Reset the count label back to 0
      */
     @IBAction func onResetClick(_ sender: Any) {
-        count = 0;
+        count = 0
         updateCountLabel()
     }
     
