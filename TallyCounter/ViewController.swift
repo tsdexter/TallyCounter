@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var countLabel: UILabel!
     
+    // instantiate a counter 
     var count: Int = 0
     
     override func viewDidLoad() {
@@ -25,10 +26,27 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+    /**
+     * Increment the count label by 1
+     */
     @IBAction func onIncrementClick(_ sender: Any) {
         count += 1
-        countLabel.text = String(count);
+        updateCountLabel()
+    }
+    
+    /**
+     * Reset the count label back to 0
+     */
+    @IBAction func onResetClick(_ sender: Any) {
+        count = 0;
+        updateCountLabel()
+    }
+    
+    /**
+     * Update the count label
+     */
+    func updateCountLabel() {
+        countLabel.text = String(count)
     }
 }
 

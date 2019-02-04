@@ -1,12 +1,12 @@
 
 /* Class = "UIButton"; normalTitle = "Click Me"; ObjectID = "9pv-kk-8eL"; */
-"9pv-kk-8eL.normalTitle" = "Cliquez!";
+"9pv-kk-8eL.normalTitle" = "Нажми на меня";
 
 /* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "Clz-Kj-77F"; */
-"Clz-Kj-77F.normalTitle" = "Réinitialiser";
+"Clz-Kj-77F.normalTitle" = "Сброс";
 
 /* Class = "UILabel"; text = "0"; ObjectID = "MTD-6j-DCc"; */
 "MTD-6j-DCc.text" = "0";
 
 /* Class = "UILabel"; text = "Tally Counter"; ObjectID = "bPu-2f-kFa"; */
-"bPu-2f-kFa.text" = "Compteur-enregistreur";
+"bPu-2f-kFa.text" = "Счетчик";

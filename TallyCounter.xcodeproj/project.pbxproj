@@ -23,6 +23,7 @@
 		E459D1AE2207DFB600BB2CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E459D1B02207DFB600BB2CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E459D1B62207E54700BB2CA2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		E459D1B72207E93100BB2CA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +150,7 @@
 			children = (
 				E459D1A92207DFB500BB2CA2 /* Base */,
 				E459D1B62207E54700BB2CA2 /* fr */,
+				E459D1B72207E93100BB2CA2 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
